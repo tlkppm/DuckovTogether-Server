@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DuckovTogetherServer</AssemblyName>
+    <RootNamespace>DuckovTogether</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="3.0.0-preview8" />
+    <Reference Include="LiteNetLib">
+      <HintPath>..\Shared\LiteNetLib.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\Shared\LiteNetLib.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>LiteNetLib.dll</Link>
+    </None>
+  </ItemGroup>
+
+</Project>

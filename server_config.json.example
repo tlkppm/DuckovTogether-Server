@@ -1,0 +1,11 @@
+{
+  "Port": 9050,
+  "MaxPlayers": 4,
+  "ServerName": "DuckovTogether Server",
+  "GameKey": "gameKey",
+  "TickRate": 60,
+  "SyncInterval": 0.015,
+  "EnableBroadcast": true,
+  "GamePath": "",
+  "ExtractedDataPath": "Data"
+}

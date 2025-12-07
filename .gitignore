@@ -1,0 +1,42 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dll
+*.pdb
+
+## Visual Studio
+.vs/
+*.csproj.user
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+bld/
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Data files (generated at runtime)
+Data/
+*.json
+!server_config.json.example
+
+## Logs
+*.log
+
+## OS generated
+.DS_Store
+Thumbs.db
